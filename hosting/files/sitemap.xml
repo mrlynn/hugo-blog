@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/links/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/api/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/stitch/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/</loc>
+    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/resume/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/goisforlovers/</loc>
+    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/development/</loc>
+    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/go/</loc>
+    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/golang/</loc>
+    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/templates/</loc>
+    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/themes/</loc>
+    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/</loc>
+  </url>
+  
+</urlset>

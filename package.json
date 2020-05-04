@@ -1,0 +1,30 @@
+{
+  "name": "mlynnblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrlynn/hugo-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrlynn/hugo-blog/issues"
+  },
+  "homepage": "https://github.com/mrlynn/hugo-blog#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-shell": "^0.8.0",
+    "mongodb-stitch-cli": "^1.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

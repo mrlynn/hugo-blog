@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>Creating a Data Enabled API in 10 Minutes with MongoDB Stitch</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Michael Lynn">
+  <meta name="description" content="Introduction Creating an API that exposes data doesn’t have to be complicated. With MongoDB Stitch, you can create a data enabled endpoint in about 10 minutes or less. At the heart of the entire process is MongoDB Stitch’s Services. There are several from which to choose and to create a data enabled endpoint, you’ll choose the HTTP Service with a Webhook.
+When you create an HTTP Service, you’re enabling access to this service from Stitch’s serverless functions in the form of an object called context.">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mlynn">
+    <meta name="twitter:title" content="Creating a Data Enabled API in 10 Minutes with MongoDB Stitch">
+    <meta name="twitter:description" content="Introduction Creating an API that exposes data doesn’t have to be complicated. With MongoDB Stitch, you can create a data enabled endpoint in about 10 minutes or less. At the heart of the entire process is MongoDB Stitch’s Services. There are several from which to choose and to create a data enabled endpoint, you’ll choose the HTTP Service with a Webhook.
+When you create an HTTP Service, you’re enabling access to this service from Stitch’s serverless functions in the form of an object called context.">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Creating a Data Enabled API in 10 Minutes with MongoDB Stitch">
+  <meta property="og:description" content="Introduction Creating an API that exposes data doesn’t have to be complicated. With MongoDB Stitch, you can create a data enabled endpoint in about 10 minutes or less. At the heart of the entire process is MongoDB Stitch’s Services. There are several from which to choose and to create a data enabled endpoint, you’ll choose the HTTP Service with a Webhook.
+When you create an HTTP Service, you’re enabling access to this service from Stitch’s serverless functions in the form of an object called context.">
+  <meta property="og:url" content="https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.59.0">
+
+
+<link rel="canonical" href="https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Michael Lynn">
+<meta name="msapplication-tooltip" content="Michael Lynn">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-152x152.png">
+<link rel="manifest" href="https://hugo-blog-ilbfw.mongodbstitch.com/manifest.json">
+
+
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" as="image">
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://hugo-blog-ilbfw.mongodbstitch.com"><img class="avatar" src="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://hugo-blog-ilbfw.mongodbstitch.com">Michael Lynn</a></h2>
+  
+  <p class="subtitle">How can I help you?</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://github.com/mrlynn">Works</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/">Tags</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/links/">Links</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/about/">About</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="mailto:merlynn@gmail.com" title="Email" aria-label="Email">
+            <span class="icon icon-email" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//github.com/mrlynn" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/mlynn" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//www.linkedin.com/in/mlynn" rel="me" title="LinkedIn" aria-label="LinkedIn">
+            <span class="icon icon-linkedin" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">Creating a Data Enabled API in 10 Minutes with MongoDB Stitch</h1>
+      <p class="post-meta">@Michael Lynn · Sep 26, 2018 · 3 min read</p>
+    </header>
+    <article class="post-content">
+
+<h2 id="introduction">Introduction</h2>
+
+<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/header.png" alt="Example image" />
+Creating an API that exposes data doesn’t have to be complicated. With MongoDB Stitch, you can create a data enabled endpoint in about 10 minutes or less.
+At the heart of the entire process is <a href="https://docs.mongodb.com/stitch/services/">MongoDB Stitch’s Services</a>. There are several from which to choose and to create a data enabled endpoint, you’ll choose the <a href="https://docs.mongodb.com/stitch/reference/service-webhooks/">HTTP Service with a Webhook</a>.</p>
+
+<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/1.png" alt="1" /></p>
+
+<p>When you create an HTTP Service, you’re enabling access to this service from Stitch’s serverless functions in the form of an object called <code>context.services</code>. More on that later when we create a serverless function attached to this service.
+Name and add the service and you’ll then get to create an “Incoming Webhook”. This is the process that will be contacted when your clients request data of your API.</p>
+
+<p>Call the webhook whatever you like, and set the parameters as you see below:</p>
+
+<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/2.png" alt="1" /></p>
+
+<p>We’ll create this API to respond with results to GET requests. Next up, you’ll get to create the logic in a function that will be executed whenever your API is contacted with a GET request.</p>
+
+<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/3.png" alt="1" /></p>
+
+<p>Before we modify this script to return data, let’s take a look at the Settings tab — this is where you’ll find the URL where your clients will reach your API.</p>
+
+<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/4.png" alt="1" /></p>
+
+<p>That’s it — you’ve configured your API. It’s not going to do anything interesting. In fact, the default responds to requests with “Hello World”. Let’s add some data.</p>
+
+<p>Assuming we have a database called <code>mydatabase</code> and a collection of contact data called <code>mycollection</code>, let’s write a function for our service:</p>
+
+<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/5.gif" alt="1" /></p>
+
+<p>And here’s the source:</p>
+
+<pre><code>exports = function(payload) {
+ const mongodb = context.services.get(“mongodb-atlas”);
+ const mycollection = mongodb.db(“mydatabase”).collection(“mycollection”);
+ return mycollection.find({}).toArray();
+};
+</code></pre>
+
+<p>This exposes all documents in the database whenever a client calls the webhook URL associated with our HTTP Service. That’s it.
+Let’s use PostMan to show how this works. Grab your API Endpoint URL from the service settings screen. Mine is as follows — yours will differ.</p>
+
+<p><code>https://webhooks.mongodb-stitch.com/api/client/v2.0/app/devrel-mrmrq/service/api/incoming_webhook/webhook0</code></p>
+
+<p>Paste that into the GET URL field and hit Send, you should see something similar to the following:</p>
+
+<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/6.png" alt="1" /></p>
+
+<p>Check out the <a href="https://github.com/mrlynn/10-min-data-api-mongodb-stitch">GitHub Repository</a> to review the code and try it yourself and review the screencast where I create a <a href="https://youtu.be/WBEzGFpAnhY">data enabled API in 10 Minutes with MongoDB Stitch</a>.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/WBEzGFpAnhY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>Want to try this for yourself? Sign up for a free <a href="http://cloud.mongodb.com/">MongoDB Atlas account</a>. Looking to leverage an API for integration with MongoDB? Read Andrew Morgan’s recent article on <a href="https://www.mongodb.com/blog/post/building-a-rest-api-with-mongodb-stitch">Building a REST API with MongoDB Stitch</a>.</p>
+
+<h2 id="additional-resources">Additional Resources</h2>
+
+<ul>
+<li><a href="http://docs.mongodb.com/stitch">MongoDB Stitch Documentation</a></li>
+<li>Creating your first Stitch app? Start with one of the <a href="https://docs.mongodb.com/stitch/tutorials/">Stitch tutorials</a>.</li>
+<li>Want to learn more about MongoDB Stitch? <a href="https://www.mongodb.com/collateral/mongodb-stitch-serverless-platform">Read the white paper</a>.</li>
+</ul>
+</article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb"><span class="tag">MongoDB</span></a></li>
+        
+          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/api"><span class="tag">API</span></a></li>
+        
+          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/stitch"><span class="tag">Stitch</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>586</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mrlynn" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2020 Michael Lynn</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://hugo-blog-ilbfw.mongodbstitch.com/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

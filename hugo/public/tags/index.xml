@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Michael Lynn</title>
+    <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/</link>
+    <description>Recent content in Tags on Michael Lynn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>API</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/api/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stitch</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/stitch/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/stitch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/development/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/go/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/golang/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/templates/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/themes/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

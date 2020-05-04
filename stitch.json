@@ -1,0 +1,20 @@
+{
+    "app_id": "hugo-blog-ilbfw",
+    "config_version": 20180301,
+    "name": "hugo-blog",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL",
+    "security": {},
+    "hosting": {
+        "enabled": true,
+        "app_default_domain": "hugo-blog-ilbfw.mongodbstitch.com",
+        "default_error_path": "",
+        "default_error_code": "404"
+    },
+    "custom_user_data_config": {
+        "enabled": false
+    },
+    "sync": {
+        "development_mode_enabled": true
+    }
+}
