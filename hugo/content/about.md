@@ -1,11 +1,13 @@
 ---
-title: "About"
-date: "2014-04-09"
-layout: "about"
-menu: "main"
-weight: 50
----
+title: About
+date: 2014-04-09
+layout: about
+weight: "50"
+menu:
+  main:
+    weight: 2
 
+---
 ### Welcome.
 
 Michael is a passionate software developer, fitness enthusiast, father, and husband. You can find more content below:
