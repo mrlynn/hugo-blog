@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MongoDB on Michael Lynn</title>
-    <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb/</link>
+    <link>/tags/mongodb/</link>
     <description>Recent content in MongoDB on Michael Lynn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating a Data Enabled API in 10 Minutes with MongoDB Stitch</title>
-      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</link>
+      <link>/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</guid>
+      <guid>/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</guid>
       <description>Introduction Creating an API that exposes data doesn’t have to be complicated. With MongoDB Stitch, you can create a data enabled endpoint in about 10 minutes or less. At the heart of the entire process is MongoDB Stitch’s Services. There are several from which to choose and to create a data enabled endpoint, you’ll choose the HTTP Service with a Webhook.
 When you create an HTTP Service, you’re enabling access to this service from Stitch’s serverless functions in the form of an object called context.</description>
     </item>

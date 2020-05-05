@@ -7,6 +7,7 @@
     "security": {},
     "hosting": {
         "enabled": true,
+        "custom_domain": "mlynn.org",
         "app_default_domain": "hugo-blog-ilbfw.mongodbstitch.com",
         "default_error_path": "",
         "default_error_code": "404"

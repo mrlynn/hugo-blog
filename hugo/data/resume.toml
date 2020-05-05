@@ -1,15 +1,6 @@
-name = "John Doe"
+name = "Michael Lynn"
 
 # These two variable definitions need to go before [contact], etc.
-languages = [
-  "English (native)",
-  "Chinese (conversational)"
-]
-
-interests = [
-  "Photography",
-  "Web development"
-]
 
 [contact]
 
@@ -28,56 +19,93 @@ interests = [
     url = "//mlynn.org"
     title = "mlynn.org"
 
+  [[contact.list]]
+    class = "website"
+    url = "//twitter.com/mlynn"
+    title = "@mlynn"
+
 
 [experience]
 
   [[experience.list]]
-    name = "Google Cloud"
-    company = "Google, Inc."
-    location = "Mountain View, CA, USA"
-    title = "Software Engineer"
+    name = "MongoDB"
+    company = "MongoDB, Inc."
+    location = "New York, NY, USA"
+    title = "Principal Developer Advocate"
     year = "01/2016 - now"
-    description = """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Suspendisse elit quam, maximus eget ex eget, vehicula ultricies nunc.
-      Nam sodales eu ipsum non ultricies."""
+    description = """
+- Build and nurture the startup community through the MongoDB for Startups program, an initiative designed to help startups succeed by offering access to the software and services to help them build and scale their business.
+- Mentor and advise startups and founders on the technical aspects of their products.
+- Manage the Startups Technical Advisors program - a volunteer-based initiative which pairs startup founders and developers with experts to help solve their technical challenges.
+- Teach, enable, mentor, nurture, build and train through content, conference speaking, screencasts and curriculum.
+- Grow startup program through partnerships with VC's, Accelerators, and other Tech companies.
+    """
 
   [[experience.list]]
-    name = "Amazon Web Services"
-    company = "Amazon"
-    location = "Seattle, WA, USA"
-    title = "Software Engineer"
-    year = "09/2014 - 12/2015"
-    projects = [
-      """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Suspendisse elit quam""",
-      """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Suspendisse elit quam""",
-      """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Suspendisse elit quam""",
-    ]
+    name = "MongoDB"
+    company = "MongoDB, Inc."
+    location = "Philadelphia, PA, USA"
+    title = "Community Organizer"
+    year = "01/2016 - now"
+    description = """
+- My mission is to build and drive increased awareness of MongoDB's Database Platform and tools and related NoSQL technologies in and around the Philadelphia Area. I accomplish this primarily by building monthly Meetup sessions, identifying speakers and/or building and delivering presentations.
+    """
 
   [[experience.list]]
-    name = "Aliyun"
-    company = "Alibaba, Inc."
-    location = "Hangzhou, Zhejiang, China"
-    title = "Software Engineer"
-    year = "01/2009 - 08/2014"
-    projects = [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    ]
+    name = "MongoDB"
+    company = "MongoDB. Inc."
+    location = "New York, NY, USA"
+    title = "Sr. Solutions Architect"
+    year = "01/2016 - 03/2018"
+    description = """
+- Responsible for guiding and informing customers and users throughout the process of designing and building reliable, scalable systems using MongoDB.
+- Design systems, applications, and infrastructure to help drive some of the world's largest software development projects leveraging MongoDB
+- Advise customers on architectures, patterns, and strategies for making best use of MongoDB
+- Partner with our sales team to help ensure success in accounts ranging from small startups to large enterprises
+- Lead proof of concept implementations from concept through execution
+- Translate technical concepts and patterns into business benefits for management and executives
+- Work with the enablement team to produce and deliver content to educate newly hired MongoDB team members.
+- Curate, develop and deliver field enablement and education content to train MongoDB employees and keep them informed on the technical aspects of the products and services MongoDB provides.
+"""
 
 [skill]
 
   [[skill.list]]
-    name = "C/C++"
+    name = "MongoDB"
     level = "80"
 
   [[skill.list]]
     name = "Python"
+    level = "70"
+
+  [[skill.list]]
+    name = "JavaScript"
     level = "80"
 
   [[skill.list]]
     name = "HTML"
     level = "80"
+  
+  [[skill.list]]
+    name = "GoLang"
+    level = "40"
+  
+  [[skill.list]]
+    name = "Databases - Other"
+    level = "75"
+
+ [[skill.list]]
+    name = "Communication/Presentation"
+    level = "85"
+
+  [[skill.list]]
+    name = "Enablement/Teaching"
+    level = "85"
+
+  [[skill.list]]
+    name = "Photoshop/Graphics"
+    level = "80"
+
+  [[skill.list]]
+    name = "Audio/Visual"
+    level = "70"

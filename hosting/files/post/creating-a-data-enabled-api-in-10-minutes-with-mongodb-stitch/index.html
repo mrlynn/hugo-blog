@@ -44,7 +44,7 @@ When you create an HTTP Service, you’re enabling access to this service from S
   <meta property="og:title" content="Creating a Data Enabled API in 10 Minutes with MongoDB Stitch">
   <meta property="og:description" content="Introduction Creating an API that exposes data doesn’t have to be complicated. With MongoDB Stitch, you can create a data enabled endpoint in about 10 minutes or less. At the heart of the entire process is MongoDB Stitch’s Services. There are several from which to choose and to create a data enabled endpoint, you’ll choose the HTTP Service with a Webhook.
 When you create an HTTP Service, you’re enabling access to this service from Stitch’s serverless functions in the form of an object called context.">
-  <meta property="og:url" content="https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/">
+  <meta property="og:url" content="/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -53,7 +53,7 @@ When you create an HTTP Service, you’re enabling access to this service from S
 <meta name="generator" content="Hugo 0.59.0">
 
 
-<link rel="canonical" href="https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/">
+<link rel="canonical" href="/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -78,20 +78,20 @@ When you create an HTTP Service, you’re enabling access to this service from S
 <meta name='msapplication-navbutton-color' content="#02b875">
 <meta name="msapplication-TileColor" content="#02b875">
 <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
-<link rel="icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-32x32.png">
-<link rel="icon" sizes="192x192" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-192x192.png">
-<link rel="apple-touch-icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-152x152.png">
-<link rel="manifest" href="https://hugo-blog-ilbfw.mongodbstitch.com/manifest.json">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="/icons/icon-152x152.png">
+<link rel="manifest" href="/manifest.json">
 
 
-<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css" as="style">
+<link rel="preload" href="/styles/main-rendered.min.css" as="style">
 
 
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
-<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" as="image">
-<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/grey-prism.svg" as="image">
+<link rel="preload" href="/images/avatar.png" as="image">
+<link rel="preload" href="/images/grey-prism.svg" as="image">
 
 
 <style>
@@ -99,7 +99,7 @@ When you create an HTTP Service, you’re enabling access to this service from S
     background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
   }
 </style>
-<link rel="stylesheet" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css">
+<link rel="stylesheet" href="/styles/main-rendered.min.css">
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
@@ -141,9 +141,9 @@ When you create an HTTP Service, you’re enabling access to this service from S
     
     
   <header class="site-header">
-  <a href="https://hugo-blog-ilbfw.mongodbstitch.com"><img class="avatar" src="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" alt="Avatar"></a>
+  <a href=""><img class="avatar" src="/images/avatar.png" alt="Avatar"></a>
   
-  <h2 class="title"><a href="https://hugo-blog-ilbfw.mongodbstitch.com">Michael Lynn</a></h2>
+  <h2 class="title"><a href="">Michael Lynn</a></h2>
   
   <p class="subtitle">How can I help you?</p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
@@ -160,8 +160,22 @@ When you create an HTTP Service, you’re enabling access to this service from S
         <li class="menu-item
           
           
+          ">
+          <a href="/links/">Links</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="/about/">About</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
            is-active">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/">Home</a>
+          <a href="/">Home</a>
         </li>
       
         <li class="menu-item
@@ -175,21 +189,14 @@ When you create an HTTP Service, you’re enabling access to this service from S
           
           
           ">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/">Tags</a>
+          <a href="/resume/">Resume</a>
         </li>
       
         <li class="menu-item
           
           
           ">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/links/">Links</a>
-        </li>
-      
-        <li class="menu-item
-          
-          
-          ">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/about/">About</a>
+          <a href="/tags/">Tags</a>
         </li>
       
     </ul>
@@ -225,32 +232,32 @@ When you create an HTTP Service, you’re enabling access to this service from S
 
 <h2 id="introduction">Introduction</h2>
 
-<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/header.png" alt="Example image" />
+<p><img src="/media/header.png" alt="Example image" />
 Creating an API that exposes data doesn’t have to be complicated. With MongoDB Stitch, you can create a data enabled endpoint in about 10 minutes or less.
 At the heart of the entire process is <a href="https://docs.mongodb.com/stitch/services/">MongoDB Stitch’s Services</a>. There are several from which to choose and to create a data enabled endpoint, you’ll choose the <a href="https://docs.mongodb.com/stitch/reference/service-webhooks/">HTTP Service with a Webhook</a>.</p>
 
-<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/1.png" alt="1" /></p>
+<p><img src="/media/1.png" alt="1" /></p>
 
 <p>When you create an HTTP Service, you’re enabling access to this service from Stitch’s serverless functions in the form of an object called <code>context.services</code>. More on that later when we create a serverless function attached to this service.
 Name and add the service and you’ll then get to create an “Incoming Webhook”. This is the process that will be contacted when your clients request data of your API.</p>
 
 <p>Call the webhook whatever you like, and set the parameters as you see below:</p>
 
-<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/2.png" alt="1" /></p>
+<p><img src="/media/2.png" alt="1" /></p>
 
 <p>We’ll create this API to respond with results to GET requests. Next up, you’ll get to create the logic in a function that will be executed whenever your API is contacted with a GET request.</p>
 
-<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/3.png" alt="1" /></p>
+<p><img src="/media/3.png" alt="1" /></p>
 
 <p>Before we modify this script to return data, let’s take a look at the Settings tab — this is where you’ll find the URL where your clients will reach your API.</p>
 
-<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/4.png" alt="1" /></p>
+<p><img src="/media/4.png" alt="1" /></p>
 
 <p>That’s it — you’ve configured your API. It’s not going to do anything interesting. In fact, the default responds to requests with “Hello World”. Let’s add some data.</p>
 
 <p>Assuming we have a database called <code>mydatabase</code> and a collection of contact data called <code>mycollection</code>, let’s write a function for our service:</p>
 
-<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/5.gif" alt="1" /></p>
+<p><img src="/media/5.gif" alt="1" /></p>
 
 <p>And here’s the source:</p>
 
@@ -268,7 +275,7 @@ Let’s use PostMan to show how this works. Grab your API Endpoint URL from the 
 
 <p>Paste that into the GET URL field and hit Send, you should see something similar to the following:</p>
 
-<p><img src="https://hugo-blog-ilbfw.mongodbstitch.com/media/6.png" alt="1" /></p>
+<p><img src="/media/6.png" alt="1" /></p>
 
 <p>Check out the <a href="https://github.com/mrlynn/10-min-data-api-mongodb-stitch">GitHub Repository</a> to review the code and try it yourself and review the screencast where I create a <a href="https://youtu.be/WBEzGFpAnhY">data enabled API in 10 Minutes with MongoDB Stitch</a>.</p>
 
@@ -292,11 +299,11 @@ Let’s use PostMan to show how this works. Grab your API Endpoint URL from the 
       
       <ul class="post-tags">
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb"><span class="tag">MongoDB</span></a></li>
+          <li><a href="/tags/mongodb"><span class="tag">MongoDB</span></a></li>
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/api"><span class="tag">API</span></a></li>
+          <li><a href="/tags/api"><span class="tag">API</span></a></li>
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/stitch"><span class="tag">Stitch</span></a></li>
+          <li><a href="/tags/stitch"><span class="tag">Stitch</span></a></li>
         
       </ul>
       
@@ -318,7 +325,7 @@ Let’s use PostMan to show how this works. Grab your API Endpoint URL from the 
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "mrlynn" + '.disqus.com/embed.js';
+        s.src = '//' + "mikelynn" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
@@ -370,7 +377,7 @@ Let’s use PostMan to show how this works. Grab your API Endpoint URL from the 
 
 
 
-<script src="https://hugo-blog-ilbfw.mongodbstitch.com/scripts/index.min.js"></script>
+<script src="/scripts/index.min.js"></script>
 
 <script>
   if ('serviceWorker' in navigator) {
@@ -387,7 +394,7 @@ Let’s use PostMan to show how this works. Grab your API Endpoint URL from the 
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	ga('create', 'UA-13067313-1', 'auto');
 	
 	ga('send', 'pageview');
 }

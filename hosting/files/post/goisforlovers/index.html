@@ -44,7 +44,7 @@ This document is a brief primer on using go templates.">
   <meta property="og:title" content="(Hu)go Template Primer">
   <meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.">
-  <meta property="og:url" content="https://hugo-blog-ilbfw.mongodbstitch.com/post/goisforlovers/">
+  <meta property="og:url" content="/post/goisforlovers/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -53,7 +53,7 @@ This document is a brief primer on using go templates.">
 <meta name="generator" content="Hugo 0.59.0">
 
 
-<link rel="canonical" href="https://hugo-blog-ilbfw.mongodbstitch.com/post/goisforlovers/">
+<link rel="canonical" href="/post/goisforlovers/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -78,20 +78,20 @@ This document is a brief primer on using go templates.">
 <meta name='msapplication-navbutton-color' content="#02b875">
 <meta name="msapplication-TileColor" content="#02b875">
 <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
-<link rel="icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-32x32.png">
-<link rel="icon" sizes="192x192" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-192x192.png">
-<link rel="apple-touch-icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-152x152.png">
-<link rel="manifest" href="https://hugo-blog-ilbfw.mongodbstitch.com/manifest.json">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="/icons/icon-152x152.png">
+<link rel="manifest" href="/manifest.json">
 
 
-<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css" as="style">
+<link rel="preload" href="/styles/main-rendered.min.css" as="style">
 
 
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
-<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" as="image">
-<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/grey-prism.svg" as="image">
+<link rel="preload" href="/images/avatar.png" as="image">
+<link rel="preload" href="/images/grey-prism.svg" as="image">
 
 
 <style>
@@ -99,7 +99,7 @@ This document is a brief primer on using go templates.">
     background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
   }
 </style>
-<link rel="stylesheet" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css">
+<link rel="stylesheet" href="/styles/main-rendered.min.css">
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
@@ -141,9 +141,9 @@ This document is a brief primer on using go templates.">
     
     
   <header class="site-header">
-  <a href="https://hugo-blog-ilbfw.mongodbstitch.com"><img class="avatar" src="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" alt="Avatar"></a>
+  <a href=""><img class="avatar" src="/images/avatar.png" alt="Avatar"></a>
   
-  <h2 class="title"><a href="https://hugo-blog-ilbfw.mongodbstitch.com">Michael Lynn</a></h2>
+  <h2 class="title"><a href="">Michael Lynn</a></h2>
   
   <p class="subtitle">How can I help you?</p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
@@ -160,8 +160,22 @@ This document is a brief primer on using go templates.">
         <li class="menu-item
           
           
+          ">
+          <a href="/links/">Links</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="/about/">About</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
            is-active">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/">Home</a>
+          <a href="/">Home</a>
         </li>
       
         <li class="menu-item
@@ -175,21 +189,14 @@ This document is a brief primer on using go templates.">
           
           
           ">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/">Tags</a>
+          <a href="/resume/">Resume</a>
         </li>
       
         <li class="menu-item
           
           
           ">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/links/">Links</a>
-        </li>
-      
-        <li class="menu-item
-          
-          
-          ">
-          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/about/">About</a>
+          <a href="/tags/">Tags</a>
         </li>
       
     </ul>
@@ -279,7 +286,7 @@ functions.</p>
 <p>Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="https://hugo-blog-ilbfw.mongodbstitch.com/layout/variables">variables</a> page.</p>
+<a href="/layout/variables">variables</a> page.</p>
 
 <p>A variable is accessed by referencing the variable name.</p>
 
@@ -296,7 +303,7 @@ page you are rendering. More details are available on the
 
 <p>Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="https://hugo-blog-ilbfw.mongodbstitch.com/layout/functions">Hugo template
+available functions with their own. <a href="/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -484,7 +491,7 @@ you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="https://hugo-blog-ilbfw.mongodbstitch.com/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
 
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -560,15 +567,15 @@ so, such as in this example:</p>
       
       <ul class="post-tags">
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/go"><span class="tag">Go</span></a></li>
+          <li><a href="/tags/go"><span class="tag">Go</span></a></li>
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/golang"><span class="tag">Golang</span></a></li>
+          <li><a href="/tags/golang"><span class="tag">Golang</span></a></li>
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/templates"><span class="tag">Templates</span></a></li>
+          <li><a href="/tags/templates"><span class="tag">Templates</span></a></li>
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/themes"><span class="tag">Themes</span></a></li>
+          <li><a href="/tags/themes"><span class="tag">Themes</span></a></li>
         
-          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/development"><span class="tag">Development</span></a></li>
+          <li><a href="/tags/development"><span class="tag">Development</span></a></li>
         
       </ul>
       
@@ -590,7 +597,7 @@ so, such as in this example:</p>
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "mrlynn" + '.disqus.com/embed.js';
+        s.src = '//' + "mikelynn" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
@@ -642,7 +649,7 @@ so, such as in this example:</p>
 
 
 
-<script src="https://hugo-blog-ilbfw.mongodbstitch.com/scripts/index.min.js"></script>
+<script src="/scripts/index.min.js"></script>
 
 <script>
   if ('serviceWorker' in navigator) {
@@ -659,7 +666,7 @@ so, such as in this example:</p>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	ga('create', 'UA-13067313-1', 'auto');
 	
 	ga('send', 'pageview');
 }
