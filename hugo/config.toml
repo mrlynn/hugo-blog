@@ -2,13 +2,18 @@ PygmentsCodeFences = true
 baseURL = ""
 canonifyurls = true
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
-disqusShortname = "mikelynn"
+disqusShortname = "mlynn-1"
 enableRobotsTXT = true
 googleAnalytics = "UA-13067313-1"
 languageCode = "en"
 publishDir = "../hosting/files"
 theme = "hugo-nuo"
 title = "Michael Lynn"
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
@@ -19,11 +24,7 @@ identifier = "works"
 name = "Works"
 url = "https://github.com/mrlynn"
 weight = 4
-[[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 3
+
 [params]
 author = "mlynn"
 avatar = "images/avatar.png"

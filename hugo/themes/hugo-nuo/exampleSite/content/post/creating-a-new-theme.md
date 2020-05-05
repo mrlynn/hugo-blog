@@ -2,6 +2,8 @@
 title: Creating a New Theme
 author: "Michael Henderson"
 tags: ["Theme", "Hugo"]
+aliases: -
+  "/create-new-theme"
 date: 2014-09-28
 ---
 

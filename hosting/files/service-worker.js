@@ -19,6 +19,7 @@ var filesToCache = [
   'scripts/index.min.js',
 
   // Google fonts
+  'https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap'
   'https://fonts.googleapis.com/css?family=Lobster',
   'https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoKmM4MwWJU.woff2',
 

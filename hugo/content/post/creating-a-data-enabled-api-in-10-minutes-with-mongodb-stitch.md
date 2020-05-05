@@ -1,7 +1,9 @@
 ---
 title: Creating a Data Enabled API in 10 Minutes with MongoDB Stitch
-author: "Michael Lynn"
+author: "mlynn"
 tags: ["MongoDB", "API", "Stitch"]
+aliases:
+    - "/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/"
 date: 2018-09-26
 ---
 
