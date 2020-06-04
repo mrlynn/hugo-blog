@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2019 13:16:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -32,6 +32,151 @@
     </item>
     
     <item>
+      <title>Stitching Sheets: Using MongoDB Stitch to Create an API for Data in Google Sheets</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</guid>
+      <description>MongoDB Stitch is a power tool in your toolbox, capable of integrating your databases to any service with a publically available API. I&amp;rsquo;ve written a number of articles on this on MongoDB&amp;rsquo;s Blog but in this article, I&amp;rsquo;ll share a quick lesson on how to integrate data from Google Sheets, Google&amp;rsquo;s online spreadsheet, into MongoDB using MongoDB Stitch. Watch the video or read on to learn what&amp;rsquo;s involved.
+Starting the Workflow There are two key elements that make this solution work.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with MongoDB Atlas</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/getting-started-with-mongodb-atlas/</link>
+      <pubDate>Mon, 18 Feb 2019 21:13:12 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/getting-started-with-mongodb-atlas/</guid>
+      <description>Launching an M0 - Free Tier Instance MongoDB Atlas is a database as a service offering from MongoDB. Getting started is super simple and takes only about 10 minutes. Atlas offers various tiered service levels started with m0 and continuing with larger amounts of resource (cpu, disk, etc.) on up to m400 that comes with 488GB of RAM and 3TB of storage by default.
+  Obviously, the larger the instance size, the more you&amp;rsquo;ll spend per hour but the good news is that you can pause these clusters when they&amp;rsquo;re not needed.</description>
+    </item>
+    
+    <item>
+      <title>Build a Slack App in 10 Minutes (or less) with MongoDB Stitch</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/build-a-slack-app-in-10-minutes-or-less-with-mongodb-stitch/</link>
+      <pubDate>Mon, 18 Feb 2019 01:30:02 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/build-a-slack-app-in-10-minutes-or-less-with-mongodb-stitch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remembering my last drink.</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/my-last-drink/</link>
+      <pubDate>Wed, 09 Jan 2019 16:08:57 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/my-last-drink/</guid>
+      <description>thom masat / Unsplash
+I&amp;rsquo;ve been told that if you don&amp;rsquo;t remember your last drink, you probably haven&amp;rsquo;t had it yet. I don&amp;rsquo;t know if that&amp;rsquo;s true, but I remember mine well. And while the last drink I do remember may not be the last drink I&amp;rsquo;ll ever have, I can say with relative certainty that I won&amp;rsquo;t be having one today.
+My last alcoholic bender began on January 9th, 2014 with a gulp of vodka guzzled from a 2-liter bottle.</description>
+    </item>
+    
+    <item>
+      <title>11 Signs that You May Have a Drinking Problem</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/eleven-signs-you-have-a-drinking-problem/</link>
+      <pubDate>Sun, 06 Jan 2019 15:44:53 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/eleven-signs-you-have-a-drinking-problem/</guid>
+      <description>Happy New Year! My year is off to a stellar start, and I hope the same is true for you. For most of us, this is a truly joyous time of celebration. Many mark the passing of the year with care-free toasts and the occasional alcoholic refreshment.
+Michael Discenza / Unsplash
+If you&amp;rsquo;re one of these &amp;ldquo;normal&amp;rdquo; people - congratulations! If, however, you&amp;rsquo;re struggling with your drinking, read on.</description>
+    </item>
+    
+    <item>
+      <title>The Story of Lynn</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/the-story-of-lynn-1/</link>
+      <pubDate>Wed, 26 Dec 2018 20:33:10 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/the-story-of-lynn-1/</guid>
+      <description>The following was prepared, compiled and documented by Teresa Lynn and sent to me, Michael Lynn in December of 2018.
+  Heraldic Blazon of the Coat of Arms of the Family of Lynn
+  The following information was found in the Hall of Archives and Records in Raleigh, North Carolina.
+SHIELD: Gules (red) a deli-lion rampant (fighting position) argent (silver) within a bordure x sable (black) bezantee (spotted with golden circles).</description>
+    </item>
+    
+    <item>
+      <title>Fresh perspective and the road less traveled</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/on-the-value-of-fresh-perspective/</link>
+      <pubDate>Wed, 24 Oct 2018 14:16:20 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/on-the-value-of-fresh-perspective/</guid>
+      <description>All too often, we approach any given problem from the well-worn path of our trusted experience. We search our kit bag of experiences for a solution that&amp;rsquo;s worked in similar situations. This is nature. This is how our brains work - we learn grow and develop expertise by leveraging familiar paths to success.
+Annie Spratt / Unsplash
+The science behind this phenomenon tells us that each time we learn something new, neural pathways are created in your brain.</description>
+    </item>
+    
+    <item>
+      <title>CodeCampNYC 2018</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/introduction-to-mongodb-stitch/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/introduction-to-mongodb-stitch/</guid>
+      <description>I had the pleasure of speaking at CodeCamp NYC on Saturday, October 20th. Attached is the presentation I shared.
+  Serverless Application Development with MongoDB Stitch  from Michael Lynn  The talk covered a basic introduction to [MongoDB](http://www.mongodb.com), how it differs from Tabular Database Management Systems like [SQL Server](https://www.microsoft.com/en-us/sql-server/default.aspx), [MySQL](http://www.mysql.com), and the like. I also introduced [MongoDB Atlas](http://cloud.mongodb.com), the Database as a Service and [MongoDB Stitch](http://docs.mongodb.com/stitch), the Backend as a Service.</description>
+    </item>
+    
+    <item>
+      <title>MS Excel Project Management Template</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/ms-excel-project-management-template/</link>
+      <pubDate>Sat, 13 Oct 2018 21:02:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/ms-excel-project-management-template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zen and Art of Stack Ranking with Excel</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/zen-and-art-of-stack-ranking/</link>
+      <pubDate>Sat, 13 Oct 2018 20:43:19 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/zen-and-art-of-stack-ranking/</guid>
+      <description>Background Stack Ranking as the name implies is the process of stacking things or people up and applying a 1 to n rating to each. Unlike a standard performance rating, a ranking implies that no two employees should have the same assigned rank and that when you’re finished, someone will be number one and someone will be on the bottom of the pile.
+Stack Ranking the members of your team can be a loathsome task.</description>
+    </item>
+    
+    <item>
+      <title>A Simple Excel Decision Matrix | The Lynn Decision Tool</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/a-simple-excel-decision-matrix-the-lynn-decision-tool/</link>
+      <pubDate>Sat, 13 Oct 2018 16:33:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/a-simple-excel-decision-matrix-the-lynn-decision-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sizing MongoDB: Knowing the Unknowable</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/sizing-mongodb-knowing-the-unknowable/</link>
+      <pubDate>Sat, 13 Oct 2018 15:17:24 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/sizing-mongodb-knowing-the-unknowable/</guid>
+      <description>How many servers do I need? How many CPU&amp;rsquo;s, how much memory? How fast should the storage be? Do I need to I shard? As part of my job as a Solutions Architect, I&amp;rsquo;m asked to help provide guidance and recommendations for sizing infrastructure that will run MongoDB databases. In nearly every case, I feel like Nostradamus. That is to say, I feel like I&amp;rsquo;m being asked to predict the future.</description>
+    </item>
+    
+    <item>
+      <title>Serverless Functions in MongoDB Stitch</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/serverless-functions-in-mongodb-stitch/</link>
+      <pubDate>Sat, 13 Oct 2018 12:46:47 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/serverless-functions-in-mongodb-stitch/</guid>
+      <description>Serverless and Functions as a Service are relatively new development paradigms that are gaining in popularity. Let’s take a quick look at what MongoDB Stitch offers in this space.
+Ilya Pavlov / Unsplash
+Functions in Stitch are written in JavaScript ECMAScript and can be called from others scripts in Stitch, or from external JavaScript leveraging the client SDK.
+Here’s an example of a function in Stitch:
+exports = function(message) { const mongodb = context.</description>
+    </item>
+    
+    <item>
+      <title>10 Tips for the Beginner Hackathon Participant</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/10-tips-for-the-beginner-hackathon-participant/</link>
+      <pubDate>Sat, 13 Oct 2018 11:02:56 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/10-tips-for-the-beginner-hackathon-participant/</guid>
+      <description>As fall closes in, the hackathon season reaches its peak. Here’s a quick list of tips to maximize your opportunity as you plan to participate — and win your next hackathon.
+Agence Producteurs Locaux Damien Kühn / Unsplash
+*Team up early.* If you already have your team picked, great. If you don&amp;rsquo;t, don’t waste time. Start introducing yourself to others looking for teammates. Relationships you build at this event will be invaluable as you grow professionally.</description>
+    </item>
+    
+    <item>
       <title>Creating a Data Enabled API in 10 Minutes with MongoDB Stitch</title>
       <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
@@ -48,30 +193,6 @@ When you create an HTTP Service, you’re enabling access to this service from S
       
       <guid>https://hugo-blog-ilbfw.mongodbstitch.com/resume/</guid>
       <description>This is my resume.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/goisforlovers/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
     <item>

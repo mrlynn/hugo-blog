@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microsoft on Michael Lynn</title>
+    <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/microsoft/</link>
+    <description>Recent content in microsoft on Michael Lynn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 21 Oct 2018 19:31:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CodeCampNYC 2018</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/introduction-to-mongodb-stitch/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/introduction-to-mongodb-stitch/</guid>
+      <description>I had the pleasure of speaking at CodeCamp NYC on Saturday, October 20th. Attached is the presentation I shared.
+  Serverless Application Development with MongoDB Stitch  from Michael Lynn  The talk covered a basic introduction to [MongoDB](http://www.mongodb.com), how it differs from Tabular Database Management Systems like [SQL Server](https://www.microsoft.com/en-us/sql-server/default.aspx), [MySQL](http://www.mysql.com), and the like. I also introduced [MongoDB Atlas](http://cloud.mongodb.com), the Database as a Service and [MongoDB Stitch](http://docs.mongodb.com/stitch), the Backend as a Service.</description>
+    </item>
+    
+  </channel>
+</rss>

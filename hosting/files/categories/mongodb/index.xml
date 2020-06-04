@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mongodb on Michael Lynn</title>
+    <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/mongodb/</link>
+    <description>Recent content in mongodb on Michael Lynn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 03 Mar 2019 13:16:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/categories/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stitching Sheets: Using MongoDB Stitch to Create an API for Data in Google Sheets</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</guid>
+      <description>MongoDB Stitch is a power tool in your toolbox, capable of integrating your databases to any service with a publically available API. I&amp;rsquo;ve written a number of articles on this on MongoDB&amp;rsquo;s Blog but in this article, I&amp;rsquo;ll share a quick lesson on how to integrate data from Google Sheets, Google&amp;rsquo;s online spreadsheet, into MongoDB using MongoDB Stitch. Watch the video or read on to learn what&amp;rsquo;s involved.
+Starting the Workflow There are two key elements that make this solution work.</description>
+    </item>
+    
+    <item>
+      <title>CodeCampNYC 2018</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/introduction-to-mongodb-stitch/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/introduction-to-mongodb-stitch/</guid>
+      <description>I had the pleasure of speaking at CodeCamp NYC on Saturday, October 20th. Attached is the presentation I shared.
+  Serverless Application Development with MongoDB Stitch  from Michael Lynn  The talk covered a basic introduction to [MongoDB](http://www.mongodb.com), how it differs from Tabular Database Management Systems like [SQL Server](https://www.microsoft.com/en-us/sql-server/default.aspx), [MySQL](http://www.mysql.com), and the like. I also introduced [MongoDB Atlas](http://cloud.mongodb.com), the Database as a Service and [MongoDB Stitch](http://docs.mongodb.com/stitch), the Backend as a Service.</description>
+    </item>
+    
+    <item>
+      <title>Sizing MongoDB: Knowing the Unknowable</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/sizing-mongodb-knowing-the-unknowable/</link>
+      <pubDate>Sat, 13 Oct 2018 15:17:24 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/sizing-mongodb-knowing-the-unknowable/</guid>
+      <description>How many servers do I need? How many CPU&amp;rsquo;s, how much memory? How fast should the storage be? Do I need to I shard? As part of my job as a Solutions Architect, I&amp;rsquo;m asked to help provide guidance and recommendations for sizing infrastructure that will run MongoDB databases. In nearly every case, I feel like Nostradamus. That is to say, I feel like I&amp;rsquo;m being asked to predict the future.</description>
+    </item>
+    
+    <item>
+      <title>Serverless Functions in MongoDB Stitch</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/serverless-functions-in-mongodb-stitch/</link>
+      <pubDate>Sat, 13 Oct 2018 12:46:47 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/serverless-functions-in-mongodb-stitch/</guid>
+      <description>Serverless and Functions as a Service are relatively new development paradigms that are gaining in popularity. Let’s take a quick look at what MongoDB Stitch offers in this space.
+Ilya Pavlov / Unsplash
+Functions in Stitch are written in JavaScript ECMAScript and can be called from others scripts in Stitch, or from external JavaScript leveraging the client SDK.
+Here’s an example of a function in Stitch:
+exports = function(message) { const mongodb = context.</description>
+    </item>
+    
+  </channel>
+</rss>

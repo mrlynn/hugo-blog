@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>beginner on Michael Lynn</title>
+    <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/beginner/</link>
+    <description>Recent content in beginner on Michael Lynn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 03 Mar 2019 13:16:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/categories/beginner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stitching Sheets: Using MongoDB Stitch to Create an API for Data in Google Sheets</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</guid>
+      <description>MongoDB Stitch is a power tool in your toolbox, capable of integrating your databases to any service with a publically available API. I&amp;rsquo;ve written a number of articles on this on MongoDB&amp;rsquo;s Blog but in this article, I&amp;rsquo;ll share a quick lesson on how to integrate data from Google Sheets, Google&amp;rsquo;s online spreadsheet, into MongoDB using MongoDB Stitch. Watch the video or read on to learn what&amp;rsquo;s involved.
+Starting the Workflow There are two key elements that make this solution work.</description>
+    </item>
+    
+    <item>
+      <title>Fresh perspective and the road less traveled</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/on-the-value-of-fresh-perspective/</link>
+      <pubDate>Wed, 24 Oct 2018 14:16:20 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/on-the-value-of-fresh-perspective/</guid>
+      <description>All too often, we approach any given problem from the well-worn path of our trusted experience. We search our kit bag of experiences for a solution that&amp;rsquo;s worked in similar situations. This is nature. This is how our brains work - we learn grow and develop expertise by leveraging familiar paths to success.
+Annie Spratt / Unsplash
+The science behind this phenomenon tells us that each time we learn something new, neural pathways are created in your brain.</description>
+    </item>
+    
+    <item>
+      <title>10 Tips for the Beginner Hackathon Participant</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/10-tips-for-the-beginner-hackathon-participant/</link>
+      <pubDate>Sat, 13 Oct 2018 11:02:56 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/10-tips-for-the-beginner-hackathon-participant/</guid>
+      <description>As fall closes in, the hackathon season reaches its peak. Here’s a quick list of tips to maximize your opportunity as you plan to participate — and win your next hackathon.
+Agence Producteurs Locaux Damien Kühn / Unsplash
+*Team up early.* If you already have your team picked, great. If you don&amp;rsquo;t, don’t waste time. Start introducing yourself to others looking for teammates. Relationships you build at this event will be invaluable as you grow professionally.</description>
+    </item>
+    
+  </channel>
+</rss>

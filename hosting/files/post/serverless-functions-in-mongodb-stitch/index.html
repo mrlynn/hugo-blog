@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>Serverless Functions in MongoDB Stitch</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Michael Lynn">
+  <meta name="description" content="Serverless and Functions as a Service are relatively new development paradigms that are gaining in popularity. Let’s take a quick look at what MongoDB Stitch offers in this space.
+Ilya Pavlov / Unsplash
+Functions in Stitch are written in JavaScript ECMAScript and can be called from others scripts in Stitch, or from external JavaScript leveraging the client SDK.
+Here’s an example of a function in Stitch:
+exports = function(message) { const mongodb = context.">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mlynn">
+    <meta name="twitter:title" content="Serverless Functions in MongoDB Stitch">
+    <meta name="twitter:description" content="Serverless and Functions as a Service are relatively new development paradigms that are gaining in popularity. Let’s take a quick look at what MongoDB Stitch offers in this space.
+Ilya Pavlov / Unsplash
+Functions in Stitch are written in JavaScript ECMAScript and can be called from others scripts in Stitch, or from external JavaScript leveraging the client SDK.
+Here’s an example of a function in Stitch:
+exports = function(message) { const mongodb = context.">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Serverless Functions in MongoDB Stitch">
+  <meta property="og:description" content="Serverless and Functions as a Service are relatively new development paradigms that are gaining in popularity. Let’s take a quick look at what MongoDB Stitch offers in this space.
+Ilya Pavlov / Unsplash
+Functions in Stitch are written in JavaScript ECMAScript and can be called from others scripts in Stitch, or from external JavaScript leveraging the client SDK.
+Here’s an example of a function in Stitch:
+exports = function(message) { const mongodb = context.">
+  <meta property="og:url" content="https://hugo-blog-ilbfw.mongodbstitch.com/post/serverless-functions-in-mongodb-stitch/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.59.0">
+
+
+<link rel="canonical" href="https://hugo-blog-ilbfw.mongodbstitch.com/post/serverless-functions-in-mongodb-stitch/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Michael Lynn">
+<meta name="msapplication-tooltip" content="Michael Lynn">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-152x152.png">
+<link rel="manifest" href="https://hugo-blog-ilbfw.mongodbstitch.com/manifest.json">
+
+
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" as="image">
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://hugo-blog-ilbfw.mongodbstitch.com"><img class="avatar" src="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://hugo-blog-ilbfw.mongodbstitch.com">Michael Lynn</a></h2>
+  
+  <p class="subtitle">How can I help you?</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/links/">Links</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/about/">About</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://github.com/mrlynn">Works</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/resume/">Resume</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/">Tags</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="mailto:merlynn@gmail.com" title="Email" aria-label="Email">
+            <span class="icon icon-email" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//github.com/mrlynn" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/mlynn" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//www.linkedin.com/in/mlynn" rel="me" title="LinkedIn" aria-label="LinkedIn">
+            <span class="icon icon-linkedin" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">Serverless Functions in MongoDB Stitch</h1>
+      <p class="post-meta">@Michael Lynn · Oct 13, 2018 · 3 min read</p>
+    </header>
+    <article class="post-content"><p><a href="https://en.wikipedia.org/wiki/Serverless_computing">Serverless</a> and <a href="https://en.wikipedia.org/wiki/Function_as_a_service">Functions as a Service</a> are relatively new development paradigms that are gaining in popularity. Let’s take a quick look at what <a href="http://www.mongodb.com/stitch">MongoDB Stitch</a> offers in this space.</p>
+
+<p><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=58bba222186b057d9e88ada20ec520a7" caption="Photo by <a href="https://unsplash.com/@ilyapavlov?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Ilya Pavlov</a> / <a href="https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit">Unsplash</a></p>
+
+<p>Functions in Stitch are written in JavaScript <a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm">ECMAScript</a> and can be called from others scripts in Stitch, or from external JavaScript leveraging the client <a href="https://s3.amazonaws.com/stitch-sdks/js/docs/4.0.0/index.html">SDK</a>.</p>
+
+<p>Here’s an example of a function in Stitch:</p>
+
+<pre><code>exports = function(message) {
+
+  const mongodb = context.services.get(&quot;mongodb-atlas&quot;);
+
+  const coll = mongodb.db(&quot;db&quot;).collection(&quot;users&quot;);
+
+  const twilio = context.services.get(&quot;my-twilio-service&quot;);
+
+  const yourTwilioNumber = context.values.get(&quot;twilioNumber&quot;);
+
+  coll.find().toArray().then(users =&gt; {
+
+    users.forEach(user =&gt; twilio.send({
+
+      to: user.phone,
+
+      from: yourTwilioNumber,
+
+      body: message
+
+    })
+
+  );
+
+});
+</code></pre>
+
+<p>A few things might stand out about the structure and content of this script. Let’s take a closer look at some of these components.</p>
+
+<p>The first thing you’ll notice is <strong>exports</strong>. All Stitch functions run the JavaScript function assigned to the global variable <strong>exports</strong>. This is similar in theory and practice to the Node.js <code>module.exports</code> object.</p>
+
+<p>Next, you’re likely to see references to <strong>context</strong>. Access to resources from within Stitch scripts is facilitated through the use of a context object. This object has several elements:</p>
+
+<ul>
+<li><p><strong>context.services:</strong> There are several built-in services like “mongodb-atlas”. This provides access to the underlying database within Atlas. Other services can be instantiated for third-party services including GitHub, AWS, Twilio and more. These additional services will be accessed using the name you provide during configuration.</p>
+
+<pre><code>const db = context.services.get(“mongodb-atlas”).db(“ecommerce”);
+</code></pre></li>
+</ul>
+
+<p>Notice how easily I’m able to begin accessing my database, and collection.</p>
+
+<ul>
+<li><strong>context.values:</strong> Values are named constants that you can use in MongoDB Stitch functions and rules. These are like global variables available to all functions in a Stitch application.</li>
+
+<li><p><strong>context.functions:</strong> This enables you to reference other serverless functions written and hosted in Stitch.</p>
+
+<pre><code>exports = function(a, b) {
+return context.functions.execute(“sum”, a, -1 * b);
+};
+</code></pre></li>
+
+<li><p><strong>context.users:</strong> Provides a view of the currently authenticated user.</p>
+
+<pre><code>{
+“id”: “5a01f135b6fc810a19421c12”,
+
+“type”: “server”,
+
+“data”: {
+
+“name”: “api-key”
+
+},
+
+“identities”: [{
+
+“id”: “5a09f135b6fc810f19421c13”,
+
+“provider_type”: “api-key”
+
+}]
+
+}
+</code></pre></li>
+</ul>
+
+<p>Lastly, a resource available to developers of serverless functions in Stitch that we’re not representing in the example function, but that bears mentioning is the set of <strong>utilities</strong> exposed as methods in Stitch functions. There are several pre-imported JavaScript libraries available for your serverless functions:</p>
+
+<ul>
+<li><strong>console</strong> can be used to output to the debug console and console logs.</li>
+<li><strong>JSON</strong> can be used to convert between string and object representations of standard JSON.</li>
+<li><strong>EJSON</strong> can be used to convert between string and object representations of MongoDB Extended JSON.</li>
+<li><strong>BSON</strong> can be used to construct and manipulate BSON types.</li>
+<li><strong>utils.crypto</strong> provides methods for working with cryptographic algorithms.</li>
+</ul>
+
+<p>Utilities and context objects leveraged as a part of your application make it possible to create rich, powerfully integrated applications that don’t need a lot of the boilerplate code set up.</p>
+
+<p>Developing applications leveraging serverless is a bit different — but once you get used to leveraging the tools available, it is extremely powerful and helps you create better applications. And do it faster as well. It’s a huge benefit to using MongoDB Stitch in your development cycle.</p>
+
+<p>To read more, and get started, check out the <a href="https://docs.mongodb.com/stitch/functions/">documentation</a>, sign up for a <a href="http://cloud.mongodb.com">free Atlas account</a> and begin writing a serverless application today.</p>
+</article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/serverless"><span class="tag">Serverless</span></a></li>
+        
+          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb"><span class="tag">Mongodb</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>570</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mlynn-1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2020 Michael Lynn</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://hugo-blog-ilbfw.mongodbstitch.com/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-13067313-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

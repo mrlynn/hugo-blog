@@ -14,36 +14,296 @@
   
   <url>
     <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/api/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/api/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/beginner/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/beginner/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hugo-blog-ilbfw.mongodbstitch.com/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/mongodb/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/mongodb/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/stitch/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/serverless/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/serverless/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/</loc>
+    <lastmod>2019-03-03T13:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/getting-started/</loc>
+    <lastmod>2019-02-18T21:13:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/getting-started-with-mongodb-atlas/</loc>
+    <lastmod>2019-02-18T21:13:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/build-a-slack-app-in-10-minutes-or-less-with-mongodb-stitch/</loc>
+    <lastmod>2019-02-18T01:30:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/alcoholism/</loc>
+    <lastmod>2019-01-09T16:08:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/alcoholism/</loc>
+    <lastmod>2019-01-09T16:08:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/my-last-drink/</loc>
+    <lastmod>2019-01-09T16:08:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/sober/</loc>
+    <lastmod>2019-01-09T16:08:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sober/</loc>
+    <lastmod>2019-01-09T16:08:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/sobriety/</loc>
+    <lastmod>2019-01-09T16:08:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sobriety/</loc>
+    <lastmod>2019-01-09T16:08:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/eleven-signs-you-have-a-drinking-problem/</loc>
+    <lastmod>2019-01-06T15:44:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/the-story-of-lynn-1/</loc>
+    <lastmod>2018-12-26T20:33:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/on-the-value-of-fresh-perspective/</loc>
+    <lastmod>2018-10-24T14:16:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/teamwork/</loc>
+    <lastmod>2018-10-24T14:16:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/teamwork/</loc>
+    <lastmod>2018-10-24T14:16:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/atlas/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/atlas/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/introduction-to-mongodb-stitch/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/conference/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/conference/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/microsoft/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/microsoft/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/speaking/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/speaking/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/stitch/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/stitch/</loc>
+    <lastmod>2018-10-21T19:31:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/analytics/</loc>
+    <lastmod>2018-10-13T21:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/analytics/</loc>
+    <lastmod>2018-10-13T21:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/excel/</loc>
+    <lastmod>2018-10-13T21:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/excel/</loc>
+    <lastmod>2018-10-13T21:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/ms-excel-project-management-template/</loc>
+    <lastmod>2018-10-13T21:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/project-management/</loc>
+    <lastmod>2018-10-13T21:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/project-management/</loc>
+    <lastmod>2018-10-13T21:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/zen-and-art-of-stack-ranking/</loc>
+    <lastmod>2018-10-13T20:43:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/a-simple-excel-decision-matrix-the-lynn-decision-tool/</loc>
+    <lastmod>2018-10-13T16:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sizing/</loc>
+    <lastmod>2018-10-13T15:17:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/sizing/</loc>
+    <lastmod>2018-10-13T15:17:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/sizing-mongodb-knowing-the-unknowable/</loc>
+    <lastmod>2018-10-13T15:17:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/serverless-functions-in-mongodb-stitch/</loc>
+    <lastmod>2018-10-13T12:46:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/10-tips-for-the-beginner-hackathon-participant/</loc>
+    <lastmod>2018-10-13T11:02:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/developer/</loc>
+    <lastmod>2018-10-13T11:02:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/developer/</loc>
+    <lastmod>2018-10-13T11:02:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/getting-started/</loc>
+    <lastmod>2018-10-13T11:02:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/hackathon/</loc>
+    <lastmod>2018-10-13T11:02:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/hackathon/</loc>
+    <lastmod>2018-10-13T11:02:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/creating-a-data-enabled-api-in-10-minutes-with-mongodb-stitch/</loc>
     <lastmod>2018-09-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,52 +313,8 @@
   </url>
   
   <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/goisforlovers/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/development/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/go/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/golang/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/templates/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/themes/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hugo-blog-ilbfw.mongodbstitch.com/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo-blog-ilbfw.mongodbstitch.com/categories/</loc>
   </url>
   
 </urlset>

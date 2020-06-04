@@ -1,5 +1,5 @@
 PygmentsCodeFences = true
-baseURL = ""
+baseurl         = "https://www.mlynn.org"
 canonifyurls = true
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
 disqusShortname = "mlynn-1"

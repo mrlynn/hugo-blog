@@ -7,9 +7,190 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 03 Mar 2019 13:16:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>api</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/api/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beginner</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/beginner/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/beginner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mongodb</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/mongodb/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/serverless/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alcoholism</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/alcoholism/</link>
+      <pubDate>Wed, 09 Jan 2019 16:08:57 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/alcoholism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sober</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sober/</link>
+      <pubDate>Wed, 09 Jan 2019 16:08:57 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sober/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sobriety</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sobriety/</link>
+      <pubDate>Wed, 09 Jan 2019 16:08:57 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sobriety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teamwork</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/teamwork/</link>
+      <pubDate>Wed, 24 Oct 2018 14:16:20 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/teamwork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atlas</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/atlas/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/atlas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/conference/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/microsoft/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speaking</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/speaking/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/speaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stitch</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/stitch/</link>
+      <pubDate>Sun, 21 Oct 2018 19:31:43 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/stitch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/analytics/</link>
+      <pubDate>Sat, 13 Oct 2018 21:02:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>excel</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/excel/</link>
+      <pubDate>Sat, 13 Oct 2018 21:02:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project management</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/project-management/</link>
+      <pubDate>Sat, 13 Oct 2018 21:02:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/project-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sizing</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sizing/</link>
+      <pubDate>Sat, 13 Oct 2018 15:17:24 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/sizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/developer/</link>
+      <pubDate>Sat, 13 Oct 2018 11:02:56 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/getting-started/</link>
+      <pubDate>Sat, 13 Oct 2018 11:02:56 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathon</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/categories/hackathon/</link>
+      <pubDate>Sat, 13 Oct 2018 11:02:56 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/categories/hackathon/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

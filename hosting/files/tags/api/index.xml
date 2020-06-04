@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>API on Michael Lynn</title>
+    <title>api on Michael Lynn</title>
     <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/api/</link>
-    <description>Recent content in API on Michael Lynn</description>
+    <description>Recent content in api on Michael Lynn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2019 13:16:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stitching Sheets: Using MongoDB Stitch to Create an API for Data in Google Sheets</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</link>
+      <pubDate>Sun, 03 Mar 2019 13:16:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/stitching-sheets/</guid>
+      <description>MongoDB Stitch is a power tool in your toolbox, capable of integrating your databases to any service with a publically available API. I&amp;rsquo;ve written a number of articles on this on MongoDB&amp;rsquo;s Blog but in this article, I&amp;rsquo;ll share a quick lesson on how to integrate data from Google Sheets, Google&amp;rsquo;s online spreadsheet, into MongoDB using MongoDB Stitch. Watch the video or read on to learn what&amp;rsquo;s involved.
+Starting the Workflow There are two key elements that make this solution work.</description>
+    </item>
     
     <item>
       <title>Creating a Data Enabled API in 10 Minutes with MongoDB Stitch</title>

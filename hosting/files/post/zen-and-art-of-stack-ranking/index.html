@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>Zen and Art of Stack Ranking with Excel</title>
+
+  
+  
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+  <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+  
+  <link href="//at.alicdn.com" rel="dns-prefetch">
+  
+  <link href="//fonts.googleapis.com" rel="dns-prefetch">
+  <link href="//fonts.gstatic.com" rel="dns-prefetch">
+  <link href="///disqus.com" rel="dns-prefetch">
+  <link href="//c.disquscdn.com" rel="dns-prefetch">
+  
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  
+
+  
+
+  
+  <meta name="author" content="Michael Lynn">
+  <meta name="description" content="Background Stack Ranking as the name implies is the process of stacking things or people up and applying a 1 to n rating to each. Unlike a standard performance rating, a ranking implies that no two employees should have the same assigned rank and that when you’re finished, someone will be number one and someone will be on the bottom of the pile.
+Stack Ranking the members of your team can be a loathsome task.">
+
+  
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mlynn">
+    <meta name="twitter:title" content="Zen and Art of Stack Ranking with Excel">
+    <meta name="twitter:description" content="Background Stack Ranking as the name implies is the process of stacking things or people up and applying a 1 to n rating to each. Unlike a standard performance rating, a ranking implies that no two employees should have the same assigned rank and that when you’re finished, someone will be number one and someone will be on the bottom of the pile.
+Stack Ranking the members of your team can be a loathsome task.">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Zen and Art of Stack Ranking with Excel">
+  <meta property="og:description" content="Background Stack Ranking as the name implies is the process of stacking things or people up and applying a 1 to n rating to each. Unlike a standard performance rating, a ranking implies that no two employees should have the same assigned rank and that when you’re finished, someone will be number one and someone will be on the bottom of the pile.
+Stack Ranking the members of your team can be a loathsome task.">
+  <meta property="og:url" content="https://hugo-blog-ilbfw.mongodbstitch.com/post/zen-and-art-of-stack-ranking/">
+  <meta property="og:image" content="/images/avatar.png">
+
+
+
+
+<meta name="generator" content="Hugo 0.59.0">
+
+
+<link rel="canonical" href="https://hugo-blog-ilbfw.mongodbstitch.com/post/zen-and-art-of-stack-ranking/">
+
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+
+
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+
+
+
+
+
+<meta name="theme-color" content="#02b875">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Michael Lynn">
+<meta name="msapplication-tooltip" content="Michael Lynn">
+<meta name='msapplication-navbutton-color' content="#02b875">
+<meta name="msapplication-TileColor" content="#02b875">
+<meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+<link rel="icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-32x32.png">
+<link rel="icon" sizes="192x192" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-192x192.png">
+<link rel="apple-touch-icon" href="https://hugo-blog-ilbfw.mongodbstitch.com/icons/icon-152x152.png">
+<link rel="manifest" href="https://hugo-blog-ilbfw.mongodbstitch.com/manifest.json">
+
+
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" as="image">
+<link rel="preload" href="https://hugo-blog-ilbfw.mongodbstitch.com/images/grey-prism.svg" as="image">
+
+
+<style>
+  body {
+    background: rgb(244, 243, 241) url('/images/grey-prism.svg') repeat fixed;
+  }
+</style>
+<link rel="stylesheet" href="https://hugo-blog-ilbfw.mongodbstitch.com/styles/main-rendered.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
+
+
+
+  
+  
+<!--[if lte IE 8]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/videojs-ie8@1.1.2/dist/videojs-ie8.min.js"></script>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20180112/classList.min.js"></script>
+<![endif]-->
+
+
+</head>
+  <body>
+    <div class="suspension">
+      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
+      
+        
+	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment" aria-hidden="true"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <a href="https://hugo-blog-ilbfw.mongodbstitch.com"><img class="avatar" src="https://hugo-blog-ilbfw.mongodbstitch.com/images/avatar.png" alt="Avatar"></a>
+  
+  <h2 class="title"><a href="https://hugo-blog-ilbfw.mongodbstitch.com">Michael Lynn</a></h2>
+  
+  <p class="subtitle">How can I help you?</p>
+  <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
+    <span class="icon icon-menu" aria-hidden="true"></span>
+  </button>
+
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+          
+          
+           is-active">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/">Home</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/links/">Links</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/about/">About</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://github.com/mrlynn">Works</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/resume/">Resume</a>
+        </li>
+      
+        <li class="menu-item
+          
+          
+          ">
+          <a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/">Tags</a>
+        </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list"><li class="social-item">
+          <a href="mailto:merlynn@gmail.com" title="Email" aria-label="Email">
+            <span class="icon icon-email" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//github.com/mrlynn" rel="me" title="GitHub" aria-label="GitHub">
+	    <span class="icon icon-github" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//twitter.com/mlynn" rel="me" title="Twitter" aria-label="Twitter">
+            <span class="icon icon-twitter" aria-hidden="true"></span>
+          </a>
+        </li><li class="social-item">
+          <a href="//www.linkedin.com/in/mlynn" rel="me" title="LinkedIn" aria-label="LinkedIn">
+            <span class="icon icon-linkedin" aria-hidden="true"></span>
+          </a>
+        </li></ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">Zen and Art of Stack Ranking with Excel</h1>
+      <p class="post-meta">@Michael Lynn · Oct 13, 2018 · 8 min read</p>
+    </header>
+    <article class="post-content">
+
+<h2 id="background">Background</h2>
+
+<p>Stack Ranking as the name implies is the process of stacking things or people up and applying a 1 to n rating to each.  Unlike a standard performance rating, a ranking implies that no two employees should have the same assigned rank and that when you’re finished, someone will be number one and someone will be on the bottom of the pile.</p>
+
+<p>Stack Ranking the members of your team can be a loathsome task.  Especially when you consider the fact that many companies use this tool as a way to identify and carry out targeted reductions in force.  The issue that many managers face when it comes to stack ranking is that even if you have a solid team of super hero performers, someone will be on the bottom of the list.</p>
+
+<p>Some have argued that there are many problems with the stack ranking system.  And I must admit the arguments against are valid.</p>
+
+<p>Nevertheless, the stack ranking system, when used effectively can provide great insight into the performance of your team and can highlight important focus areas for enablement and development.  One key to ensuring that you are getting an accurate representation of your team and the rank each member assumes is by including the critical data elements by which you will evaluate them.  This means having some good reference material about what each team member’s job description or role entails.  This will be especially helpful when communicating results to employees as well as superiors.</p>
+
+<h2 id="implementing-a-ranking-system">Implementing a Ranking System</h2>
+
+<p>Any ranking system should have a core set of components that will enable you to record the scores of your team members as they relate to criteria or attributes.  I’ve chosen Microsoft Excel as the system I’ll use, but there are many systems available that will work.</p>
+
+<p>Below, I have included an image with various highlighted sections.  The following section of this article will explain the various components and offer suggestions for implementing your own ranking system.</p>
+
+<h2 id="core-components">Core components</h2>
+
+<h2 id="a-success-criteria">A – Success Criteria</h2>
+
+<p>Every job has a success profile or a set of criterion upon which success will be judged.  If this has not been communicated properly, you should exit this article here and get that done ASAP.  There is no point in attempting to apply a ranking when your team has no idea about what you consider critical success criteria.  For our implementation, we’re going to start with a two-tiered categorization of success criteria.  This just makes communicating the results easier.</p>
+
+<p>To make things easier to communicate, I’ve enabled a two tiered categorization leveraging the ‘merge and center’ feature of Excel to consolidate the second tier of criteria under the first.</p>
+
+<h2 id="b-criteria-weighting">B – Criteria Weighting</h2>
+
+<p>I am a huge proponent of incorporating a method of expressing weights to each of the criteria upon which you will rank your staff.  Let’s face it, not every attribute is going to be of equal importance.   Is punctuality as important as follow-through or proactivity?  I won’t debate these here but I will argue that they are of differing levels of importance so any tool used to record your teams’ performance should give you the ability to reflect this.</p>
+
+<p>The weights recorded in this section are used to populate a section of the results summary.   The weighted scores and ranking are calculated by multiplying the score entered by the weight for this criteria divided by the maximum possible weight (10 in my example.)  The function for the weighted score is as follows:</p>
+
+<p><code>=IF(B5&gt;&quot;&quot;,SUM(($E5*$E$4)/10,($F5*$F$4)/10,($G5*$G$4)/10,($H5*$H$4)/10,($I5*$I$4)/10,($J5*$J$4)/10,($K5*$K$4)/10,($L5*$L$4)/10,($M5*$M$4)/10,($N5*$N$4)/10,($O5*$O$4)/10,($P5*$P$4)/10,($Q5*$Q$4)/10,($R5*$R$4)/10,($S5*$S$4)/10),&quot;&quot;)</code></p>
+
+<p>If you’re new to Excel, this will probably look like gibberish. Just understand that the letters and numbers refer to cell locations in the worksheet. Where you see a cell letter or number prefaced with a dollar sign ($), that’s used to harden the reference so that as we iterate through the various cells to perform the calculation, we don’t increment that cell reference.</p>
+
+<p>There’s probably a better or more efficient way to calculate this, but I couldn’t figure one out so I did it the hard way by manually copying and pasting the calculation across all of the various criteria columns.</p>
+
+<h3 id="c-employees">C – Employees</h3>
+
+<p>Ok, now we’re getting to some data entry.  Column B contains a list of your employees, or the members of the team you’re going to be reviewing.</p>
+
+<h3 id="d-title">D – Title</h3>
+
+<p>Entering a title for each team member under review enables us to gain further insight into performance of the team.  With this, we can answer questions such as “How are Sr. Hero’s doing across our criteria in comparison to Heros?”</p>
+
+<h3 id="e-discipline">E – Discipline</h3>
+
+<p>Recording a discipline for each employee is optional.  I view it as essential, however because it will give you even more insight into how your team is performing.  Think of discipline as a specialization within your team.  To determine if you’ll find a discipline useful, examine the differentiation between the roles performed by the members of your team.  Are some focusing on a completely separate project or set of customers?  If so, use this to further differentiate them.</p>
+
+<h3 id="f-scores">F – Scores</h3>
+
+<p>Here’s where the tough work begins.  You  must record a score for each employee as to their performance against the specific criteria.  I’m suggesting a straight integer score from 0 to 10.  To enforce accuracy and eliminate errors in reporting results, I’ve created data validation rules that force users to enter a whole number between 0 and 10.</p>
+
+<h2 id="conditional-formatting-rules-for-scores">Conditional Formatting Rules for Scores</h2>
+
+<p>As you enter the scores, you will notice that there are special conditional formatting rules applied to the data entry area for scores.  These rules give the data entry area additional readability by color coding high scores in green and low scores in red.  As you complete the process of evaluating and recording scores, the summary results and rankings can be viewed in columns T through Y or sections G through L respectively.</p>
+
+<p>Note, that in columns V and Y, you can sort the data in ascending score or rank by weighted or raw values using the up arrow and down arrow buttons.</p>
+
+<h3 id="g-score">G – Score</h3>
+
+<p>Section G contains the computed raw score values for each of the values you entered in section F (columns E through S.)  Note that this section does not take into consideration the weightings that you applied in section B.  I have implemented another set of conditional formatting rules to help identify the top and bottom performers by score.  The remainder of the computed sections apply these same conditional formatting rules.</p>
+
+<p>The value for this section is computed by simply summing each of the score columns.</p>
+
+<p><code>=IF(B5&gt;&quot;&quot;,SUM(E5:S5),&quot;&quot;)</code></p>
+
+<h3 id="h-percentage">H – Percentage</h3>
+
+<p>Section H contains the percentage of total points scored out of the total possible points.  This field is calculated by dividing the total points scored by the total points available from all of the criteria columns.</p>
+
+<p><code>=IF(B5&gt;&quot;&quot;,T5/150,&quot;&quot;)</code></p>
+
+<h3 id="i-rank">I – Rank</h3>
+
+<p>Section I shows the ranking of the employee based on the unweighted, or raw total score. This is a tricky calculation due to the fact that you may encounter multiple employees with the same exact score. A proper ranking system will never provide the same rank for multiple items or employees. We start with Excel’s built-in RANK() function which will provide a numeric ranking of a series or range of data. However, to ensure that we never present multiple similar ranks, we implement a simple test to add a value to any ranks where duplicate scores in column T may appear. This ensures that no duplicates appear in our ranking system.</p>
+
+<p><code>=IF(B5&gt;&quot;&quot;,RANK(T5,T$5:T$24)+COUNTIF($T$5:T5,T5)-1,&quot;&quot;)</code></p>
+
+<h3 id="j-weighted-score">J – Weighted Score</h3>
+
+<p>Section J gives us an opportunity to leverage the weights you specified in section B for each of the criteria. Here, we’re calculating the total score offset by the individual weights for the separate criteria. This is where is gets a bit tricky. Each score gets multiplied by the weight and then divided by total possible points or 10 in this example.</p>
+
+<p><code>=IF(B5&gt;&quot;&quot;,SUM(($E5*$E$4)/10,($F5*$F$4)/10,($G5*$G$4)/10,($H5*$H$4)/10,($I5*$I$4)/10,($J5*$J$4)/10,($K5*$K$4)/10,($L5*$L$4)/10,($M5*$M$4)/10,($N5*$N$4)/10,($O5*$O$4)/10,($P5*$P$4)/10,($Q5*$Q$4)/10,($R5*$R$4)/10,($S5*$S$4)/10),&quot;&quot;)</code></p>
+
+<p>Be sure to utilize the Up Arrows and Down Arrows in sections M and N to sort the employee data by rankings as you complete the data entry.</p>
+
+<h3 id="k-weighted-percentage">K – Weighted Percentage</h3>
+
+<p>Section K presents the total percentage of weighted score points achieved versus possible. This is the same calculation that we used for the raw percentage but uses the weighted score in column W instead of the raw score.</p>
+
+<p><code>=IF(B5&gt;&quot;&quot;,W5/$W$4,&quot;&quot;)</code></p>
+
+<h3 id="l-weighted-rank">L – Weighted Rank</h3>
+
+<p>Section L gives us a view into the weighted ranking of the employee. Obviously, if you weighted each of the criteria the same, the weighted value and the raw values will be the same and thus so too will the rankings be the same.</p>
+
+<h3 id="m-raw-rank-sort-buttons">M – Raw Rank Sort Buttons</h3>
+
+<p>The Up Arrow will enable you to sort the employees by ascending rank based on the raw scores and data whereas the Down Arrow will sort by descending rank.  To enable this sorting feature, I’ve created a button and an associated macro.</p>
+
+<pre><code>Sub btnSortUWAscending()
+'
+' btnSortUWAscending Macro
+'
+ Range(&quot;alldata&quot;).Select
+ ActiveWorkbook.Worksheets(&quot;Sheet1&quot;).Sort.SortFields.Clear
+ ActiveWorkbook.Worksheets(&quot;Sheet1&quot;).Sort.SortFields.Add Key:=Range(&quot;uwrank&quot;) _
+ , SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+ With ActiveWorkbook.Worksheets(&quot;Sheet1&quot;).Sort
+ .SetRange Range(&quot;alldata&quot;)
+ .Header = xlGuess
+ .MatchCase = False
+ .Orientation = xlTopToBottom
+ .SortMethod = xlPinYin
+ .Apply
+ End With
+End Sub
+</code></pre>
+
+<p>You will notice the use of several named ranges.  For example, “alldata” is a named range which refers to =Sheet1!$A$5:$Y$24.  “uwrank” is a named range which refers to all of the values in the raw ranking calculated column.</p>
+
+<p>You can use the Excel Name Manager to modify this if you should modify the spreadsheet significantly.</p>
+</article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/excel"><span class="tag">Excel</span></a></li>
+        
+          <li><a href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/analytics"><span class="tag">Analytics</span></a></li>
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>570</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mlynn-1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  
+<footer class="site-footer">
+  <p>© 2017-2020 Michael Lynn</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
+  
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@15.0.0/dist/smooth-scroll.min.js"></script>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+
+
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+
+
+<script src="https://hugo-blog-ilbfw.mongodbstitch.com/scripts/index.min.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('\/service-worker.js').then(function() {
+      console.log('[ServiceWorker] Registered');
+    });
+  }
+</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-13067313-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+  </body>
+</html>

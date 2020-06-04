@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>excel on Michael Lynn</title>
+    <link>https://hugo-blog-ilbfw.mongodbstitch.com/tags/excel/</link>
+    <description>Recent content in excel on Michael Lynn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 13 Oct 2018 21:02:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo-blog-ilbfw.mongodbstitch.com/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MS Excel Project Management Template</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/ms-excel-project-management-template/</link>
+      <pubDate>Sat, 13 Oct 2018 21:02:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/ms-excel-project-management-template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zen and Art of Stack Ranking with Excel</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/zen-and-art-of-stack-ranking/</link>
+      <pubDate>Sat, 13 Oct 2018 20:43:19 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/zen-and-art-of-stack-ranking/</guid>
+      <description>Background Stack Ranking as the name implies is the process of stacking things or people up and applying a 1 to n rating to each. Unlike a standard performance rating, a ranking implies that no two employees should have the same assigned rank and that when you’re finished, someone will be number one and someone will be on the bottom of the pile.
+Stack Ranking the members of your team can be a loathsome task.</description>
+    </item>
+    
+    <item>
+      <title>A Simple Excel Decision Matrix | The Lynn Decision Tool</title>
+      <link>https://hugo-blog-ilbfw.mongodbstitch.com/post/a-simple-excel-decision-matrix-the-lynn-decision-tool/</link>
+      <pubDate>Sat, 13 Oct 2018 16:33:00 +0000</pubDate>
+      
+      <guid>https://hugo-blog-ilbfw.mongodbstitch.com/post/a-simple-excel-decision-matrix-the-lynn-decision-tool/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
